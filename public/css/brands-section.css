@@ -1,0 +1,20 @@
+/* Brands Section */
+.provider-logos {
+    display: flex;
+    gap: 30px;
+}
+
+.provider-logos img {
+    max-width: 160px;
+    height: auto;
+    background: #ffff;
+    padding: 20px;
+    filter: blur(0.5px);
+    border-radius: 21px;
+    box-shadow: 0 7px 7px #a7a7a7;
+    transition: transform 0.3s ease;
+}
+
+.provider-logos img:hover {
+    filter: grayscale(0%);
+}

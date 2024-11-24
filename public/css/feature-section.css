@@ -1,0 +1,31 @@
+.feature-section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+.feature-section p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6f6d68;
+}
+
+/* Button Styling */
+.btn-quote {
+    padding: 14px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #1f2647;
+    border: none;
+    border-radius: 28px;
+    border: 1px solid #1f2647;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn-quote:hover {
+    background-color: #004a9e;
+}

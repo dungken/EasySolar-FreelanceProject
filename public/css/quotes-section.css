@@ -1,0 +1,142 @@
+/* Main Container Styling */
+#wp-qoutes {
+    color: white;
+}
+#quote-section-steps {
+    background: url(../images/background-quotes.png) center center / cover
+        no-repeat;
+    justify-content: center;
+    height: 688px;
+}
+.solar-section {
+    text-align: left;
+    font-weight: 650;
+}
+.solar-section h2 {
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.solar-section .feature-title {
+    font-size: 24px;
+    line-height: 30.34px;
+    margin-bottom: 15px;
+}
+
+.solar-section .feature-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6f6d68;
+}
+
+.solar-section .solar-item {
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    border-right: 2px solid #ede8e8;
+}
+
+.solar-section .col-md-3:last-child {
+    border-right: none;
+}
+
+.solar-section .col-md-3:hover {
+    transform: translateY(-10px);
+}
+
+.icon img {
+    width: 64px;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.quote-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.quote-section .content {
+    position: relative;
+    z-index: 2;
+}
+
+.quote-section h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.quote-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.step-card {
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 16px 22px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+    color: #ffff;
+}
+
+.step-card:hover {
+    transform: translateY(-10px);
+}
+
+.step-content .step {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.75px;
+    color: #d0ccc3;
+}
+.step-content h4 {
+    font-size: 26px;
+    font-weight: 650;
+    line-height: 38px;
+    margin: 10px 0px;
+}
+.step-icon .step {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.75px;
+    text-align: left;
+}
+.step-icon h4 {
+    font-size: 26px;
+    font-weight: 650;
+    line-height: 38px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.step-card h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+.step-card p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.75px;
+    color: #d0ccc3;
+    margin: 0;
+}
+
+/* Right Column Image */
+.quote-section .img-fluid {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,14 @@
+body {
+    font-family: "Roobert TRIAL", Pangea, sans-serif;
+    font-size: 14px;
+}
+
+#app {
+    background: #0000001a;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 60px 0px;
+}

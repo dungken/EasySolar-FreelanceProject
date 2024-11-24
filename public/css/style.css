@@ -1,0 +1,476 @@
+body {
+    font-family: "Roobert Trial", sans-serif;
+}
+
+#hero-section {
+    background: url("../images/background-webpage.png") center center / cover
+        no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 52px;
+}
+
+#hero-section .row {
+    align-items: center;
+}
+
+#hero-section .col-md-8 {
+    width: 688px;
+    min-height: 621px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 44px;
+}
+
+#hero-section #logo {
+    margin-bottom: 1rem;
+}
+
+#hero-section h1 {
+    font-size: 48px;
+    font-weight: 650;
+    line-height: 56px;
+    text-align: left;
+}
+
+#hero-section p {
+    font-size: 24px;
+    font-weight: 650;
+    line-height: 30.34px;
+    text-align: left;
+}
+
+#hero-section ul {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: #ffffff99;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+#hero-section ul li {
+    display: flex;
+    align-items: center;
+}
+
+#hero-section ul li img {
+    margin-right: 10px;
+}
+
+#hero-section .btn {
+    width: 96%;
+    height: 56px;
+    border-radius: 35px;
+    font-size: 18px;
+    font-weight: 650;
+    line-height: 22.75px;
+    text-align: center;
+    margin-top: 20px;
+    background: #2cb81d;
+    padding: 14px;
+}
+
+#hero-section .trustpilot-rating {
+    gap: 4px;
+    margin-top: 1rem;
+}
+
+#hero-section .trustpilot-rating span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.22px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+#hero-section .trustpilot-rating img {
+    margin-left: 0.5rem;
+}
+
+#hero-section .testimonial {
+    width: 445px;
+    height: 345px;
+    padding: 32px;
+    gap: 16px;
+    border-radius: 24px;
+    background: white;
+    color: black;
+    align-items: center;
+}
+
+#hero-section .testimonial h3 {
+    font-size: 32px;
+    font-weight: 650;
+    line-height: 40.45px;
+    text-align: center;
+}
+
+#hero-section .testimonial-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#hero-section .testimonial-content img {
+    margin-right: 24px;
+}
+
+#hero-section .testimonial-content h5 {
+    font-size: 16px;
+    font-weight: 650;
+    line-height: 20.22px;
+    text-align: left;
+}
+
+#hero-section .testimonial-content .stars img {
+    margin-right: 0px;
+}
+
+#hero-section .testimonial-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Main Container Styling */
+#wp-qoutes {
+    color: white;
+}
+#wp-quotes .quote-section {
+    background-image: url("../images/background-quotes.png");
+}
+#wp-quotes .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+/* Title Styling */
+#wp-quotes h2 {
+    font-family: "Roobert TRIAL", sans-serif;
+    font-size: 40px;
+    font-weight: 650;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Feature Column Styling */
+#wp-quotes .feature-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: #222;
+}
+
+#wp-quotes .feature-text {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+#wp-quotes .col-md-3 {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+#wp-quotes .col-md-3:hover {
+    transform: translateY(-10px);
+}
+
+.icon img {
+    width: 50px;
+    height: auto;
+}
+
+/* Quote Section Styling */
+.quote-section {
+    position: relative;
+    padding: 60px 20px;
+    background-color: #eaeff5;
+}
+
+.quote-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.quote-section .content {
+    position: relative;
+    z-index: 2;
+}
+
+.quote-section h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.quote-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Step Cards Styling */
+.step-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.step-card:hover {
+    transform: translateY(-10px);
+}
+
+.step-icon {
+    font-size: 24px;
+    color: #0062cc;
+    margin-bottom: 10px;
+}
+
+.step-card h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+.step-card p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Right Column Image */
+.quote-section .img-fluid {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Brands Section */
+.provider-logos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.provider-logos img {
+    max-width: 100px;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.provider-logos img:hover {
+    filter: grayscale(0%);
+}
+
+/* Feature Sections */
+.feature-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feature-image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feature-section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.feature-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+.btn-quote {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #0062cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-quote:hover {
+    background-color: #004a9e;
+}
+
+.testimonial-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.testimonial-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    display: inline-block;
+    max-width: 600px;
+}
+
+.testimonial-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating-stars {
+    color: #ffd700;
+    font-size: 1.2em;
+}
+
+.btn-link {
+    color: #007bff;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.btn-link:hover {
+    color: #0056b3;
+}
+
+.faq-section {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.faq-section h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.faq-item a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.faq-item a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #2d2d2d;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #bdbdbd;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+/* Carousel container styling */
+#myCarousel {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Image and rounded-circle effect */
+.carousel-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 10px;
+}
+
+/* Title styling */
+#myCarousel h5 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+/* Star rating styling */
+.stars img {
+    width: 20px;
+    margin: 0 2px;
+}
+
+/* Caption styling */
+.carousel-caption {
+    position: static;
+    padding: 0;
+    color: #555; /* Text color */
+}
+
+.carousel-caption p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin: 10px 0 0;
+}
+
+/* Navigation buttons styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #333;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 30px; /* Smaller button size */
+}

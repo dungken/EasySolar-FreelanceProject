@@ -1,0 +1,65 @@
+.testimonial-section .happy-customer {
+    font-size: 40px;
+    font-weight: 650;
+    line-height: 48px;
+    text-align: left;
+}
+
+.testimonial-card {
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    padding: 55px 0px;
+    text-align: center;
+}
+
+.testimonial-avatar {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating-stars {
+    margin: 5px;
+    color: #f39316;
+    font-size: 2.2em;
+}
+
+.customer-name {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30.34px;
+    color: #4c5c74;
+}
+
+.feedback {
+    color: #141930;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40.45px;
+    padding: 0 136px;
+}
+
+.btn-link-prev,
+.btn-link-next {
+    color: #c3c4c8;
+    font-size: 26px;
+    border: 1px solid #c3c4c8;
+    border-radius: 61px;
+    width: 60px;
+    height: 60px;
+}
+
+.btn-link-prev:hover,
+.btn-link-next:hover {
+    color: #1f2647;
+    border: 1px solid #1f2647;
+}
+
+.btn-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #1f2647;
+    border-radius: 61px;
+    gap: 20px;
+}

@@ -1,0 +1,356 @@
+/* General Responsive Adjustments */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1110px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    #hero-section #hero-content h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    #hero-section #hero-content p:first-child {
+        font-size: 18px;
+        line-height: 20px;
+        margin-right: 60px;
+    }
+
+    #hero-section #hero-content ul li {
+        gap: 5px;
+        line-height: 18px;
+        font-size: 16px;
+    }
+
+    #hero-section #hero-content .btn {
+        width: 88%;
+        height: 52px;
+        border-radius: 35px;
+        font-size: 16px;
+        font-weight: 650;
+        margin-top: 10px;
+        background: #2cb81d;
+        margin-right: 57px;
+    }
+
+    #hero-section #hero-content .trustpilot-rating {
+        gap: 4px;
+        margin-top: 1rem;
+        margin-right: 30px;
+    }
+
+    #hero-section #hero-content #get-free-quotes {
+        margin-right: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    #hero-section .testimonial {
+        height: 262px;
+    }
+
+    #myCarousel h5 {
+        font-size: 25px;
+        font-weight: 650;
+        line-height: 25.45px;
+    }
+
+    #hero-section .testimonial {
+        padding: 32px;
+        border-radius: 24px;
+        background: white;
+        color: black;
+    }
+    #hero-section .testimonial {
+        width: 100%;
+    }
+
+    .carousel-item img.avatar {
+        width: 50px;
+        height: 50px;
+        border: 3px solid #2cb81d;
+        border-radius: 53px;
+    }
+
+    #myCarousel h5.customer-name {
+        font-size: 13px;
+        font-weight: 644;
+        line-height: 13.22px;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 6px;
+    }
+    .carousel-item p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+    .btn-prev {
+        margin-left: 65px;
+    }
+
+    .btn-next {
+        margin-right: 65px;
+    }
+
+    .solar-section h2 {
+        font-size: 32px;
+        line-height: 41px;
+        color: #fff;
+        margin-bottom: 6px;
+    }
+
+    .icon img {
+        width: 53px;
+        margin-bottom: 0px;
+    }
+
+    .solar-section .feature-title {
+        font-size: 21px;
+        line-height: 26.34px;
+        margin-bottom: 8px;
+    }
+
+    .solar-section .feature-text {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .quote-section h2 {
+        font-size: 30px;
+    }
+
+    .step-content h4 {
+        font-size: 22px;
+        line-height: 25px;
+        margin: 6px 0px;
+    }
+
+    #quote-section-steps {
+        height: 600px;
+    }
+
+    .provider-logos img {
+        max-width: 133px;
+        padding: 8px;
+    }
+
+    .feature-section h2 {
+        font-size: 25px;
+    }
+
+    .testimonial-section .happy-customer {
+        font-size: 30px;
+    }
+
+    .testimonial-avatar {
+        width: 70px;
+        height: 70px;
+    }
+
+    .customer-name {
+        font-size: 20px;
+    }
+
+    .feedback {
+        font-size: 26px;
+    }
+
+    .btn-link-prev,
+    .btn-link-next {
+        font-size: 19px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .faq-section h2 {
+        font-size: 34px;
+        line-height: 12px;
+        margin-bottom: 10px;
+    }
+
+    .faq-item i {
+        padding: 5px;
+        font-size: 19px;
+    }
+
+    .faq-item a {
+        font-size: 16px;
+        line-height: 19.28px;
+    }
+}
+
+@media (max-width: 992px) {
+    #hero-section .col-md-8,
+    #hero-section .col-md-4 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .testimonial {
+        width: 100%;
+        height: auto;
+    }
+
+    .container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #hero-section #hero-content h1 {
+        font-size: 27px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    #hero-section #hero-content #get-free-quotes {
+        display: none;
+    }
+
+    #hero-section .testimonial {
+        width: 76%;
+    }
+
+    .carousel-item img.avatar {
+        width: 66px;
+        height: 65px;
+    }
+
+    #myCarousel h5.customer-name {
+        font-size: 17px;
+        margin-bottom: 13px;
+    }
+
+    .carousel-item p {
+        font-size: 21px;
+        line-height: 26px;
+    }
+
+    #hero-section .testimonial {
+        height: auto;
+    }
+
+    .feature-section h2 {
+        font-size: 20px;
+    }
+
+    .feature-section p {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .seekandbuilt {
+        padding: 0 !important;
+    }
+
+    .testimonial-section .happy-customer {
+        font-size: 25px;
+    }
+    .testimonial-section .happy-customer {
+        line-height: 36px;
+    }
+    .feedback {
+        font-size: 25px;
+        color: #141930;
+        font-weight: 500;
+        line-height: 37.45px;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Text and Padding Adjustments */
+    #hero-section h1 {
+        font-size: 24px;
+    }
+
+    .testimonial h3 {
+        font-size: 18px;
+    }
+
+    .testimonial p {
+        font-size: 12px;
+    }
+
+    .container-fluid {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        font-size: 20px;
+    }
+
+    /* Quotes Section */
+    #wp-quotes .feature-title {
+        font-size: 16px;
+    }
+
+    #wp-quotes .feature-text {
+        font-size: 14px;
+    }
+
+    .step-card h5 {
+        font-size: 16px;
+    }
+
+    .step-card p {
+        font-size: 14px;
+    }
+
+    .provider-logos img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .feature-section .col-md-6 {
+        margin-bottom: 20px;
+    }
+
+    .faq-section h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .faq-section .faq-item {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* Responsive adjustments for the specified section */
+    .solar-section .col-md-3 {
+        margin-bottom: 20px;
+    }
+
+    .quote-section h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .quote-section p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .step-card {
+        text-align: center;
+    }
+
+    .step-card h4 {
+        font-size: 20px;
+    }
+
+    .step-card p {
+        font-size: 12px;
+    }
+}

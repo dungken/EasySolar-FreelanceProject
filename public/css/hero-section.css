@@ -1,0 +1,133 @@
+#hero-section {
+    background: url("../images/background-webpage.png") center center / cover
+        no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+#hero-section {
+    text-align: left;
+    gap: 32px;
+}
+#hero-section #hero-content {
+    gap: 10px;
+}
+#hero-section #hero-content p:last-child {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.22px;
+    text-align: center;
+    color: #c7c7c7;
+}
+#hero-section #hero-content #get-free-quotes {
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+#hero-section #hero-content h1 {
+    font-size: 48px;
+    font-weight: 650;
+    line-height: 56px;
+    color: #ffffff;
+}
+
+#hero-section #hero-content p:first-child {
+    font-size: 24px;
+    font-weight: 650;
+    line-height: 30.34px;
+    color: #ffffff;
+}
+
+#hero-section #hero-content ul {
+    font-size: 18px;
+    color: #ffffff99;
+    gap: 12px;
+}
+
+#hero-section #hero-content ul li {
+    display: flex;
+    gap: 10px;
+    line-height: 22.75px;
+}
+
+#hero-section #hero-content .btn {
+    width: 96%;
+    height: 56px;
+    border-radius: 35px;
+    font-size: 18px;
+    font-weight: 650;
+    line-height: 22.75px;
+    text-align: center;
+    margin-top: 20px;
+    background: #2cb81d;
+    padding: 14px;
+}
+
+#hero-section #hero-content .trustpilot-rating {
+    gap: 4px;
+    margin-top: 1rem;
+}
+
+#hero-section #hero-content .trustpilot-rating span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.22px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+#hero-section .trustpilot-rating img {
+    margin-left: 0.5rem;
+}
+
+#hero-section .testimonial {
+    width: 445px;
+    height: 345px;
+    padding: 32px;
+    border-radius: 24px;
+    background: white;
+    color: black;
+}
+
+#hero-section .testimonial h3 {
+    font-size: 32px;
+    font-weight: 650;
+    line-height: 40.45px;
+    text-align: center;
+}
+
+#hero-section .testimonial-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#hero-section .testimonial-content img {
+    margin-right: 24px;
+}
+
+#hero-section .testimonial-content h5 {
+    font-size: 16px;
+    font-weight: 650;
+    line-height: 20.22px;
+}
+
+#hero-section .testimonial-content .stars img {
+    margin-right: 0px;
+}
+
+#hero-section .testimonial-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
